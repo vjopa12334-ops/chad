@@ -1,2 +1,6 @@
 python-telegram-bot
-google-generativeai
+deepface
+mediapipe
+opencv-python
+numpy
+tf-keras
