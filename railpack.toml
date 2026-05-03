@@ -1,0 +1,6 @@
+[phases.install]
+cmds = [
+  "pip install -r requirements.txt",
+  "pip uninstall -y opencv-python || true",
+  "pip install --force-reinstall opencv-python-headless",
+]
