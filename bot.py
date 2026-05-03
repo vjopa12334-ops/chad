@@ -7,7 +7,7 @@ TELEGRAM_TOKEN = "8774144586:AAG_h4h3uW8QnR-YtODLorKwgT7d7PiCBmc"
 GEMINI_KEY = "AIzaSyA9NbGLlCJJbS4aEWNevyzOAk1WF0lu4K4"
 
 genai.configure(api_key=GEMINI_KEY)
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-2.0-flash")
 
 SYSTEM_PROMPT = """Ты эксперт по оценке внешности мужчин.
 Оцени лицо на фото по шкале:
