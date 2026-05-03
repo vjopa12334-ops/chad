@@ -1,6 +1,6 @@
 python-telegram-bot
 deepface
 mediapipe
-opencv-python
+opencv-python-headless
 numpy
 tf-keras
