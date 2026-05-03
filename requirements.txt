@@ -1,7 +1,7 @@
 python-telegram-bot
 deepface
-mediapipe
+mediapipe==0.10.8
+protobuf>=3.20,<4
 opencv-python-headless
-# Cache bust: 2026-05-03T20:52
 numpy
 tf-keras
